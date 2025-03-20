@@ -9,7 +9,7 @@
   "stack": "container",
   "env": { 
       "SESSION_ID": {
-      "description": "your session id",
+      "description": "{"noiseKey":{"private":{"type":"Buffer","data":"eOl6e2BxqZj7DL+hgaoYbqMbmfCvvULb0x7I4J5Sh3w="},"public":{"type":"Buffer","data":"VmnVn6HqmkxozXTwVFgVkbmyec+P5yG6Kwh5WiXEVyg="}},"pairingEphemeralKeyPair":{"private":{"type":"Buffer","data":"KIKjByJFlInNztxVsjCwP9Lj93KnkbxSXbmRsk5OoHk="},"public":{"type":"Buffer","data":"JZjJnua86LrAqd81mdfOGlP2iXAIOCHZQpNmhMmJHxg="}},"signedIdentityKey":{"private":{"type":"Buffer","data":"uKi6w4iA+yGnO+Pv1Yi/gTF7D9Uurb6ltpvBl+08Mk4="},"public":{"type":"Buffer","data":"K724LcAfuv2MpO+rpnSHEu/3AUVCbt4Mbpz3OApVHko="}},"signedPreKey":{"keyPair":{"private":{"type":"Buffer","data":"iD3xAnCo94wDzzjPwUfIqTidZ4kUnTvEV8fllANBpHI="},"public":{"type":"Buffer","data":"kcb2S0FnMGxFI9oAgESh/RuqcIkRkLrAEfJ4ynw35AE="}},"signature":{"type":"Buffer","data":"mnACHV3a5modln+VTc5oFYARHPGeg+Ld3jgkkMl8Iv8UNhh1kW1o45NBAu18mE27kToeJGPjBZ6o7wpHQi+vgQ=="},"keyId":1},"registrationId":94,"advSecretKey":"lxp4y13zCyz/l1QScbifKfq3n/BCLR3ynGRLlYDxqHI=","processedHistoryMessages":[{"key":{"remoteJid":"22550010488@s.whatsapp.net","fromMe":true,"id":"ACB52388E3810B9A32A81983A615F453"},"messageTimestamp":1742447672},{"key":{"remoteJid":"22550010488@s.whatsapp.net","fromMe":true,"id":"C3D9E8B1904DD03BD1A32738CC0E8F06"},"messageTimestamp":1742447673}],"nextPreKeyId":31,"firstUnuploadedPreKeyId":31,"accountSyncCounter":1,"accountSettings":{"unarchiveChats":false},"deviceId":"9Akd7xSNTcOGcwBjUHFzDw","phoneId":"3f435ad0-0c99-4500-8ab1-e25655225f0f","identityId":{"type":"Buffer","data":"va52ShrHIYYn4XZCSfvGA4naflU="},"registered":true,"backupToken":{"type":"Buffer","data":"pPi2b6PBBuyYTXCxMlPpPU6FQPo="},"registration":{},"pairingCode":"CDWSXW79","me":{"id":"22550010488:5@s.whatsapp.net","name":"饾悎饾悊饾悜饾悎饾悞 饾悊饾悜饾悎饾悓饾悓","lid":"105381888012306:5@lid"},"account":{"details":"CNeEsMQEEK3I7r4GGAUgACgA","accountSignatureKey":"3WZGkOGdxvowGExWZeYmO67JpQozI1oyPykz7AiEnjA=","accountSignature":"A8Zt4H58hB5CJmgnH9aTaAxBqt64i5IamFbAZmrE54rSXsp+xjzL+Kc7t+1U544j2SbB2n5oABYJM9cVviRuAg==","deviceSignature":"507K1t/ncvbNc1qAg3cjYzl5+0QDgdl3hbi3yGOYR0GET44W3yu77jkMtvBMrdmMGIbS9acb8xXIZZwtKNV+gg=="},"signalIdentities":[{"identifier":{"name":"22550010488:5@s.whatsapp.net","deviceId":0},"identifierKey":{"type":"Buffer","data":"Bd1mRpDhncb6MBhMVmXmJjuuyaUKMyNaMj8pM+wIhJ4w"}}],"platform":"smba","lastAccountSyncTimestamp":1742447665,"myAppStateKeyId":"AAAAALLi"}",
       "required": true,
       "value": ""
     },
@@ -34,22 +34,22 @@
       "value": "false"
     },
     "AUTO_RECORDING": {
-      "description": "make it true if you want bot to show recording audio",
+      "description"true",
       "required": false,
       "value": "false"
     },
     "ALWAYS_ONLINE": {
-      "description": "make it true if you want bot to show always online",
+      "description": "true",
       "required": false,
       "value": "true"
     },
     "AUTO_BLOCK": {
-      "description": "make it true if you want bot to auto block only 212 numbers",
+      "description": "false",
       "required": false,
       "value": "true"
     },
     "REJECT_CALL": {
-      "description": "make it true if you want to reject call",
+      "description": "false",
       "required": false,
       "value": "false"  
     }   
